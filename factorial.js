@@ -12,3 +12,9 @@ const calculateFactorialWithoutRecursion = (n) => {
   }
   return result;
 };
+
+// Exporting both functions for testing purposes
+module.exports = {
+  calculateFactorial,
+  calculateFactorialWithoutRecursion
+};
